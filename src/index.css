@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-light{
+    @apply bg-gradient-to-r from-[#16D9E3] via-[#30c7ec] to-[#46aef7]
+}
+.bg-dark-gradient{
+    @apply bg-gradient-to-b  from-[#3ca8e8]  to-[#3b41c3]
+}
+.hideScrool::-webkit-scrollbar{
+    display: none;
+}
